@@ -6,7 +6,7 @@ Direct download of the Purity Tube Android app.
 
 | | |
 |---|---|
-| Version | 1.1.4 (versionCode 6) |
+| Version | 1.1.5 (versionCode 7) |
 | Size | 45.7 MB |
 | Requires | Android 7.0+ |
 | Architecture | arm64-v8a |
@@ -36,13 +36,14 @@ use and which more than doubled the download for no benefit to a real device.
 ## Verifying the download
 
 ```
-sha256  2b2402b1edec4644cc62390cc6e51bd3c24d00b17a738a594dcff85fb33ce187
+sha256  8dff08b6ac194b14e93cf84aa6b460b88826d20745253acf090e066c1e25579e
 ```
 
 ## Releases
 
 | Version | File | Notes |
 |---|---|---|
+| 1.1.5 | `puritytube-v1.1.5.apk` | YouTube-grade Shorts: dedicated stack screen, instant start, zero wrong-video jumps, tab re-tap refresh, and 3-min vertical shorts |
 | 1.1.4 | `puritytube-v1.1.4.apk` | Fixes shorts caching and lag, ensures fresh feed on navigation, immediate layout render, supports 3-min vertical shorts |
 | 1.1.2 | `puritytube-v1.1.2.apk` | Empties the connection pool on resume, so the app stops needing a force-quit to reach the network; reloads the video player on resume, fixing shorts coming back black; adds comment replies |
 | 1.1.1 | `puritytube-v1.1.1.apk` | Fixes connection timeouts, infinite skeleton loaders on foreground resume, channel banner layout, and adds back button safety across all video and channel screens |
