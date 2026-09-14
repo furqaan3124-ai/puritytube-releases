@@ -6,7 +6,7 @@ Direct download of the Purity Tube Android app.
 
 | | |
 |---|---|
-| Version | 1.1.7 (versionCode 9) |
+| Version | 1.1.8 (versionCode 10) |
 | Size | 45.7 MB |
 | Requires | Android 7.0+ |
 | Architecture | arm64-v8a |
@@ -36,13 +36,14 @@ use and which more than doubled the download for no benefit to a real device.
 ## Verifying the download
 
 ```
-sha256  00f1da84351610753766d224b6db5c906dbe46b5d6107c09ce42e6fd9a06af92
+sha256  0515a1a5b492bcd20a3422d80e5298ec55c26135b0d90c0e022c5cf5e619fee0
 ```
 
 ## Releases
 
 | Version | File | Notes |
 |---|---|---|
+| 1.1.8 | `puritytube-v1.1.8.apk` | Fixes fatal UsingReleasedSharedObjectException: removed redundant unmount pause effects and guarded JSI player calls across Shorts and watch screens |
 | 1.1.7 | `puritytube-v1.1.7.apk` | Fixes app crash on back press from Shorts/videos: removed race-prone replaceAsync calls during navigation/unmount lifecycle, improved player release safety |
 | 1.1.6 | `puritytube-v1.1.6.apk` | Fixes force stop on Shorts/video: releases hardware decoders on blur/unmount, fixes buffer underflow and cache lock on MediaTek chips |
 | 1.1.5 | `puritytube-v1.1.5.apk` | YouTube-grade Shorts: dedicated stack screen, instant start, zero wrong-video jumps, tab re-tap refresh, and 3-min vertical shorts |
